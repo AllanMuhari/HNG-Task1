@@ -1,19 +1,68 @@
-/* Add your CSS styles here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=1380&t=st=1694095894~exp=1694096494~hmac=75af817383123149c2bd8e2c8ec0814bb5c8a2187cd263ec35018ede7580ca89);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height: 450px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 .profile {
+    margin-top: 10rem;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .profile img {
-    width: 150px;
+    width: 250px;
     border-radius: 50%;
+    box-shadow: 0 0 0 5px #000;
 }
 
-.current-data {
+.profile h1{
+    font: 500;
+    color: rgb(220, 131, 15);
+   
+}
+
+.current-date {
     text-align: center;
-    margin-bottom: 20px;
+}
+.current-date p{
+    color: rgb(132, 88, 31);
 }
 
 .github-link {
     text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.github-button{
+    margin: 10px;
+    padding: 4px;
+    border-radius: .5rem;
+    background: transparent;
+}
+.github-button:hover{
+    background: white;
+}
+.github-button a{
+    color: rgb(132, 88, 31);
 }

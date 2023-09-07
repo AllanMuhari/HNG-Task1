@@ -9,19 +9,21 @@
             <link rel="stylesheet" href="style.css">
         </head>
         <body>
+           <div class="container">
             <div class="profile">
                 <img src="image/me.jpg" alt="Slack Username" data-testid="slackDisplayImage">
                 <h1 data-testid="slackUserName">Allan Kamau</h1>
             </div>
-            <div class="current-data">
+            <div class="current-date">
                 <p>Current Day of the Week: <span id="currentDay" data-testid="currentDayOfTheWeek"></span></p>
                 <p>Current UTC Time: <span id="currentTime" data-testid="currentUTCTime"></span></p>
                 <p>Your Track: <span data-testid="myTrack">Frontend : React js</span></p>
             </div>
             <div class="github-link">
-                <a href="https://github.com/AllanMuhari" target="_blank" data-testid="githubURL">GitHub Repository</a>
+                <button class="github-button"><a href="https://github.com/AllanMuhari/HNG-Task1" target="_blank" data-testid="githubURL">GitHub Repository</a></button>
             </div>
         
+           </div>
             <script src="index.js"></script>
         </body>
         </html>
