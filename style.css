@@ -31,9 +31,10 @@ body{
 }
 
 .profile img {
-    width: 250px;
+    width: 280px;
     border-radius: 50%;
     box-shadow: 0 0 0 5px #000;
+    margin: 4px;
 }
 
 .profile h1{
