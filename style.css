@@ -48,6 +48,10 @@ body{
 .current-date p{
     color: rgb(132, 88, 31);
 }
+#currentDay, #currentTime , #myTrack{
+    font-size: 1rem;
+      color: aqua;
+}
 
 .github-link {
     text-align: center;
