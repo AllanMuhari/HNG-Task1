@@ -1,0 +1,19 @@
+/* Add your CSS styles here */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.current-data {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.github-link {
+    text-align: center;
+}
